@@ -39,6 +39,12 @@ select:focus {
     font-size: 15px;
 }
 
+input[type="text"] {
+    font-size: 15px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #1966a8;
+}
+
 .button {
     width: 80%;
     display: block;
@@ -54,6 +60,7 @@ select:focus {
     padding-top: 13px;
     padding-bottom: 13px;
     border-radius: 5px;
+    letter-spacing: .01em;
 }
 
 #submit {
@@ -118,5 +125,12 @@ a {
     margin-top: -30px;
     margin-left: 10%;
     width: 16px;
+    position: absolute;
+}
+
+#nameicon {
+    margin-top: -30px;
+    margin-left: 10%;
+    width: 19px;
     position: absolute;
 }
